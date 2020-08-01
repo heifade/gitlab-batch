@@ -1,0 +1,37 @@
+{
+  "name": "gitlab-batch",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "typings": "dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.149",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.7.7",
+    "@types/node-fetch": "^2.5.5",
+    "@types/webpack": "^4.41.2",
+    "chai": "^4.2.0",
+    "chalk": "^3.0.0",
+    "lodash": "^4.17.15",
+    "mocha": "^7.0.0",
+    "node-fetch": "^2.6.0",
+    "nyc": "^15.0.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
